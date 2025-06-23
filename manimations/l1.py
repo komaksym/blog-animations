@@ -2,6 +2,7 @@ from manim import *
 
 config.background_color = WHITE  # or "#FFFFFF"
 
+
 class L1_Formula(Scene):
     def construct(self):
         # Title
@@ -10,14 +11,14 @@ class L1_Formula(Scene):
         self.add(title.to_edge(UP, buff=1))
 
         # Formula
-        tex = MathTex(r"cost = loss\ term + \lambda\sum_{j=1}^{k}\left|w_{j}\right|",
-                       font_size=50, color='black')
+        tex = MathTex(
+            r"cost = loss\ term + \lambda\sum_{j=1}^{k}\left|w_{j}\right|", font_size=50, color="black"
+        )
         tex.scale(1.2)
         self.add(tex)
 
         # Rectangle highlighting the regularization term
-        rectangle = Rectangle(color=ORANGE, fill_opacity=0, 
-                              width=2.7, height=2.2, stroke_width=5)
+        rectangle = Rectangle(color=ORANGE, fill_opacity=0, width=2.7, height=2.2, stroke_width=5)
         rectangle.shift(RIGHT * 2.7)
 
         # Render the rectangle
