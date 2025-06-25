@@ -11,12 +11,16 @@ class L1_Formula(Scene):
 
         # Formula
         tex = MathTex(
-            r"cost = loss\ term + \lambda\sum_{j=1}^{k}\left|w_{j}\right|", font_size=50, color="black"
+            r"cost = loss\ term + \lambda\sum_{j=1}^{k}\left|w_{j}\right|",
+            font_size=50,
+            color="black",
         ).scale(1.2)
         self.add(tex)
 
         # Rectangle highlighting the regularization term
-        rectangle = Rectangle(color=ORANGE, fill_opacity=0, width=2.7, height=2.2, stroke_width=5)
+        rectangle = Rectangle(
+            color=ORANGE, fill_opacity=0, width=2.7, height=2.2, stroke_width=5
+        )
         rectangle.shift(RIGHT * 2.7)
 
         # Render the rectangle

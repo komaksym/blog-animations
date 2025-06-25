@@ -23,7 +23,5 @@ class L1_derivative(Scene):
             r"\frac{\partial R}{\partial w_i} =\begin{cases}\lambda & \text{if } w_i > 0 \\-\lambda & \text{if } w_i < 0 \\\text{undefined (but subgradients exist)} & \text{if } w_i = 0\end{cases}",
             color="black",
         ).scale(0.8)
-        
-        self.add(
-            label.to_edge(UP, buff=1),
-            l1_deriv_tex)
+
+        self.add(label.to_edge(UP, buff=1), l1_deriv_tex)

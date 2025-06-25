@@ -23,7 +23,5 @@ class L1_derivative(Scene):
             r"\frac{\partial R(w)}{\partial w_i} = 2\lambda w_i",
             color="black",
         ).scale(0.8)
-        
-        self.add(
-            label.to_edge(UP, buff=1),
-            l1_deriv_tex)
+
+        self.add(label.to_edge(UP, buff=1), l1_deriv_tex)

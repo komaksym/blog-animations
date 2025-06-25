@@ -20,20 +20,13 @@ class ElasticNetFormula(Scene):
             ],
             color="black",
         ).scale(1.2)
-        
-        self.add(
-            elastic_net_title.to_edge(UP, buff=1),
-            elastic_net
-        )
+
+        self.add(elastic_net_title.to_edge(UP, buff=1), elastic_net)
 
         """Drawing braces highlighting L1 and L2 terms"""
         # Draw L1
         l1_brace = Brace(elastic_net[1], direction=DOWN, color=ORANGE)
-        l1_brace_text = Text(
-            "L1 Regularization",
-            color=ORANGE,
-            weight=BOLD
-        ).scale(0.5)
+        l1_brace_text = Text("L1 Regularization", color=ORANGE, weight=BOLD).scale(0.5)
 
         l1_brace_text.next_to(l1_brace, DOWN)
         self.play(GrowFromCenter(l1_brace), FadeIn(l1_brace_text), run_time=2)
