@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/2743010386_2554027643_2766853368.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_1498094495_3195496108.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_1049897604_3247697935.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_1309393490_197944004.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_3638653588_1932073589.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_4153545382_3866742625.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_2671194286_3876454812.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_2800141770_592644646.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/elastic_net/1080p60/partial_movie_files/ElasticNetFormula/3790338095_3487674100_2231011329.mp4'
