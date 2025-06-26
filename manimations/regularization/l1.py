@@ -18,9 +18,7 @@ class L1_Formula(Scene):
         self.add(tex)
 
         # Rectangle highlighting the regularization term
-        rectangle = Rectangle(
-            color=ORANGE, fill_opacity=0, width=2.7, height=2.2, stroke_width=5
-        )
+        rectangle = Rectangle(color=ORANGE, fill_opacity=0, width=2.7, height=2.2, stroke_width=5)
         rectangle.shift(RIGHT * 2.7)
 
         # Render the rectangle

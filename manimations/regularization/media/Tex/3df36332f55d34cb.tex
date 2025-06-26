@@ -1,0 +1,9 @@
+\documentclass[preview]{standalone}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+\begin{align*}
+\frac{\partial R(w)}{\partial w_i} =\begin{cases}\textbf{\lambda_1} + 2\lambda_2 w_i & \text{if } w_i > 0 \\-\lambda_1 + 2\lambda_2 w_i & \text{if } w_i < 0 \\\text{undefined (subgradient in } [-\lambda_1, \lambda_1]) + 2\lambda_2 w_i & \text{if } w_i = 0\end{cases}
+\end{align*}
+\end{document}

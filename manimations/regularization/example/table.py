@@ -1,13 +1,14 @@
 from manim import *
 
+config.background_color = WHITE  # Set white background globally
+
+
 class RegularizationUpdateTable(Scene):
     def construct(self):
-        self.camera.background_color = WHITE  # White background
-
-        title = Text("Coefficient Updates Over 5 Steps", font_size=36, color=BLACK).to_edge(UP)
+        title = Text("Coefficient Updates Over 5 Steps", color=BLACK).scale(0.8).to_edge(UP, buff=0.3)
 
         table_data = [
-            ["Step", "L1", "L2", "Elastic Net"],
+            ["Step", r"\textbf{L1}", r"\textbf{L2}", r"\textbf{Elastic Net}"],
             ["0", "0.5", "0.5", "0.5"],
             ["1", "0.4", "0.4", "0.3"],
             ["2", "0.3", "0.32", "0.14"],
@@ -20,9 +21,14 @@ class RegularizationUpdateTable(Scene):
             table_data,
             include_outer_lines=True,
             line_config={"color": BLACK},
-            element_to_mobject=lambda x: Text(str(x), color=BLACK, font_size=28)
-        ).scale(0.8)
+            element_to_mobject=lambda x: Tex(str(x), color=BLACK, font_size=28),
+        ).scale(0.95)
 
-        table.next_to(title, DOWN)
+        # Highlight
+        table[0][1].set_color(ORANGE)
+        table[0][2].set_color(BLUE)
+        table[0][3].set_color(PURPLE)
+
+        table.next_to(title, DOWN, buff=0.3)
 
         self.add(title, table)

@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/l1_derivative/2160p60/partial_movie_files/L1_derivative/670651367_3879069619_4126851357.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/l1_derivative/2160p60/partial_movie_files/L1_derivative/577047595_731402647_1408943059.mp4'
+file 'file:/Users/koval/dev/blog_animations/manimations/media/videos/l1_derivative/2160p60/partial_movie_files/L1_derivative/577047595_1046297672_4013148174.mp4'
